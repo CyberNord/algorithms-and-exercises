@@ -1,0 +1,28 @@
+package integers.pow_xIn;
+
+class Solution {
+    public double myPow(double x, int n) {
+        long nLong = n;
+        double result = 1.0;
+        boolean isNegative = false;
+        if (nLong < 0) {
+            nLong = Math.abs(nLong);
+            isNegative = true;
+        }
+
+        while (nLong != 0) {
+            if (nLong % 2 == 1) {
+                result *= x;
+                nLong--;
+            }
+            x *= x;
+            nLong /= 2;
+        }
+
+        if (isNegative) {
+            return 1 / result;
+        } else {
+            return result;
+        }
+    }
+}
