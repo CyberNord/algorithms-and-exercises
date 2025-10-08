@@ -1,4 +1,4 @@
-package integers.factorialTrailingZeros;
+package integers.int_factorialTrailingZeros;
 
 /**
  * TaskId: 172
@@ -7,7 +7,7 @@ package integers.factorialTrailingZeros;
  * Write a solution that works in logarithmic time complexity
  */
 
-public class Solution {
+public class FactorialTrailingZeros {
     int trailingZeroes(int number) {
         int result = 0;
         int curr = 5;
@@ -25,11 +25,11 @@ public class Solution {
      */
 
     public static void main(String[] args) {
-        System.out.println("Trailing Zeros of 5! = " +new Solution().trailingZeroes(5));
-        System.out.println("Trailing Zeros of 25! = " +new Solution().trailingZeroes(25));
-        System.out.println("Trailing Zeros of 125! = " +new Solution().trailingZeroes(125));
-        System.out.println("Trailing Zeros of 700! = " +new Solution().trailingZeroes(700));
-        System.out.println("Trailing Zeros of 10000! = " +new Solution().trailingZeroes(10000));
+        System.out.println("Trailing Zeros of 5! = " +new FactorialTrailingZeros().trailingZeroes(5));
+        System.out.println("Trailing Zeros of 25! = " +new FactorialTrailingZeros().trailingZeroes(25));
+        System.out.println("Trailing Zeros of 125! = " +new FactorialTrailingZeros().trailingZeroes(125));
+        System.out.println("Trailing Zeros of 700! = " +new FactorialTrailingZeros().trailingZeroes(700));
+        System.out.println("Trailing Zeros of 10000! = " +new FactorialTrailingZeros().trailingZeroes(10000));
 
     }
 

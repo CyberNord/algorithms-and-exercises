@@ -1,4 +1,4 @@
-package integers.palindromeNumber;
+package integers.int_palindromeNumber;
 
 /**
  * TaskId: 9
@@ -8,7 +8,7 @@ package integers.palindromeNumber;
  * Could you solve it without converting the integer to a string?
  */
 
-class Solution {
+class PalindromeNumber {
     public boolean isPalindrome(int x) {
         if (x < 0) {return false;}
         if (x != 0 && x % 10 == 0) {return false;}
@@ -25,7 +25,7 @@ class Solution {
         return false;
     }
     public static void main(String[] args) {
-        Solution s = new Solution();
+        PalindromeNumber s = new PalindromeNumber();
         System.out.println(s.isPalindrome(1234321));
     }
 }

@@ -1,6 +1,6 @@
-package integers.reverseInteger;
+package integers.int_reverseInteger;
 
-public class Solution {
+public class ReverseInteger {
     public int reverse(int x) {
         if( x == Integer.MIN_VALUE || x == Integer.MAX_VALUE ){return 0;}
 

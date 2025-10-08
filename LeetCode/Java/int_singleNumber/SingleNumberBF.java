@@ -1,4 +1,4 @@
-package integers.singleNumber;
+package integers.int_singleNumber;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -6,7 +6,7 @@ import java.util.Set;
 
 // Brute Force solution with O(n) time and O(n) space
 
-public class singleNumberBF {
+public class SingleNumberBF {
 
     public int SingleNumberBF(int[] nums) {
         if(nums.length == 1){return nums[0];}
@@ -23,7 +23,7 @@ public class singleNumberBF {
     }
 
     public static void main(String[] args) {
-        singleNumberBF s = new singleNumberBF();
+        SingleNumberBF s = new SingleNumberBF();
         System.out.println(s.SingleNumberBF(new int[]{2,2,1}));
     }
 }

@@ -1,9 +1,6 @@
-package integers.integerToRoman;
+package integers.int_integerToRoman;
 
-import java.util.List;
-import java.util.Map;
-
-public class Solution {
+public class IntegerToRoman {
     public String intToRoman(int num) {
         int[] intValue = {1000,900,500,400,100,90,50,40,10,9,5,4,1};
         String[] romanValue = {"M","CM","D","CD","C","XC","L","XL","X","IX","V","IV","I"};

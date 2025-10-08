@@ -1,11 +1,11 @@
-package integers.romanToIntegers;
+package integers.int_romanToIntegers;
 
 //13. Roman to Integer
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class Solution {
+public class RomanToInteger {
     public int romanToInt(String s) {
 
         Map<Character, Integer> romanMap = new HashMap<>();

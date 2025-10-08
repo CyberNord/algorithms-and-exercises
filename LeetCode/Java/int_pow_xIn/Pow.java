@@ -1,6 +1,6 @@
-package integers.pow_xIn;
+package integers.int_pow_xIn;
 
-class Solution {
+class Pow {
     public double myPow(double x, int n) {
         long nLong = n;
         double result = 1.0;
