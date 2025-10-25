@@ -9,3 +9,7 @@ My **GitHub profile**, on the other hand, features larger university and persona
 This repository focuses purely on **independent practice and exploration** — solutions I’ve implemented to experiment, learn, and keep my coding skills sharp.
 
 Feel free to browse, get inspired, or compare implementations — but please note that this is primarily a **learning repository**, not a production library.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/bb804f88-39e0-4125-8617-fed81ea81538" alt="Meme" width="300">
+</p>
